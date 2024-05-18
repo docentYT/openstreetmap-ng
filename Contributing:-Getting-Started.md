@@ -75,7 +75,7 @@ dev-clean  # Clean the database first (recommended)
 preload-pipeline
 ```
 
-The download size is about 5 GB, and the result is cached on your local machine in `data/preload` directory. Subsequent preloads will be able to reuse the cache. The downloader has an auto-updater, which will automatically download newer preload files when available.
+The download size is about 6 GB, and the result is cached on your local machine in `data/preload` directory. Subsequent preloads will be able to reuse the cache. The downloader has an auto-updater, which will automatically download newer preload files when available.
 
 The import process takes around 1-2 hours.
 
