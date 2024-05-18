@@ -77,7 +77,7 @@ preload-pipeline
 
 The download size is about 6 GB, and the result is cached on your local machine in `data/preload` directory. Subsequent preloads will be able to reuse the cache. The downloader has an auto-updater, which will automatically download newer preload files when available.
 
-The import process takes around 1.5-2 hours.
+The import process takes around 1-2 hours.
 
 ## 6. Project Structure
 
