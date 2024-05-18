@@ -37,7 +37,36 @@ dev-start
 > [!TIP]
 > All custom scripts are defined in the `shell.nix` file. Other useful scripts include `dev-stop` to stop the services, and `dev-clean` to clean services data files.
 
-## 4. Preloading the Database (Optional)
+## 4. Starting the Application
+
+It's time to see OpenStreetMap-NG running!
+From your terminal (while still in the development shell), run this simple command to launch the application:
+
+```sh
+run  # alias for uvicorn app.main:main --reload
+```
+
+You'll know it's working when you see an output in your terminal like:
+
+```log
+INFO:     Will watch for changes in these directories: ['/openstreetmap-ng']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [47398] using WatchFiles
+INFO:     | 2024-05-18 04:40:09 | root Yarn lock for iD is 054c647
+INFO:     | 2024-05-18 04:40:09 | root Yarn lock for @rapideditor/rapid is 2.2.5
+INFO:     | 2024-05-18 04:40:09 | root 🐌 Cython modules are not compiled
+INFO:     | 2024-05-18 04:40:09 | root 🦺 Running in test environment
+...
+```
+
+Now head over to your browser and check out your local OpenStreetMap-NG website at <http://127.0.0.1:8000>. Congratulations!
+
+When you're finished exploring, simply press <kbd>CTRL+C</kbd> in your terminal to stop the application.
+
+> [!TIP]
+> Something not working? Check out our [troubleshooting](https://github.com/Zaczero/openstreetmap-ng/wiki/Contributing:-Troubleshooting) guide.
+
+## 5. Preloading the Database (Optional)
 
 For some development tasks, you might want to preload the database with some real-world OpenStreetMap data. We make this process easy by providing a script that does everything for you:
 
@@ -50,12 +79,12 @@ The download size is about 5 GB, and the result is cached on your local machine 
 
 The import process takes around 1-2 hours.
 
-## 5. Project Structure
+## 6. Project Structure
 
 It's now a good time to familiarize yourself with the project structure. Here is what you should know:
 
 - **app**: Application code
-- **app/alembic**: Database migrations — we use [alembic](https://alembic.sqlalchemy.org)
+- **app/alembic**: Database migrations — *we use [alembic](https://alembic.sqlalchemy.org)*
 - **app/controllers**: HTTP request handlers
 - **app/exceptions**: Exception helpers
 - **app/format**: API formatting helpers
