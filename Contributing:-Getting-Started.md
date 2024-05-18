@@ -64,7 +64,7 @@ Now head over to your browser and check out your local OpenStreetMap-NG website 
 When you're finished exploring, simply press <kbd>CTRL+C</kbd> in your terminal to stop the application.
 
 > [!TIP]
-> Something not working? Check out our [troubleshooting](https://github.com/Zaczero/openstreetmap-ng/wiki/Contributing:-Troubleshooting) guide.
+> Something not working? Check out our [troubleshooting](https://github.com/Zaczero/openstreetmap-ng/wiki/Troubleshooting) guide.
 
 ## 5. Preloading the Database (Optional)
 
