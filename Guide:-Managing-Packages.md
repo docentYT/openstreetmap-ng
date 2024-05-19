@@ -22,7 +22,7 @@ For traditional software like databases or system tools, we use the [Nix](https:
 
 ### Updating
 
-Nix packages are tied to specific [commits](https://github.com/NixOS/nixpkgs/commits/nixpkgs-unstable/) for reproducibility. To update to newer versions, you'll need to edit the pkgs hash in the `shell.nix` file *(it's at the very top)*. We provide a `nixpkgs-update` command that fully automates this process — simply run it.
+Nix packages are tied to specific [commits](https://github.com/NixOS/nixpkgs/commits/nixpkgs-unstable/) for reproducibility. To update to newer versions, you'll need to edit the pkgs hash in the `shell.nix` file *(it's at the very top)*. We provide a `nixpkgs-update` command that automates this process — simply run it.
 
 ### Installing and Uninstalling
 
