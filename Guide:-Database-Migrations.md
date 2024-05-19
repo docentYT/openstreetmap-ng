@@ -14,7 +14,7 @@ You'll be asked to provide a descriptive name for the migration (e.g., "Add user
 > [!TIP]
 > You can skip the naming prompt by providing the name directly in the command: `alembic-migration "<name>"`
 
-## Running Migrations
+## Applying Migrations
 
 Migrations are applied automatically when you start the database as part of the `dev-start` command.
 If you've made changes and need to update the database, simply restart the helper services using the `dev-restart` command.
