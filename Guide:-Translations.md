@@ -2,6 +2,7 @@ Currently, most of the project's translations are sourced from the existing webs
 These translations are then transpiled into [i18next JSON v4](https://www.i18next.com/misc/json-format#i18next-json-v4) format for use within the project.
 
 To add or modify translations that are specific to OpenStreetMap-NG, simply edit the [extra_en.yaml](https://github.com/Zaczero/openstreetmap-ng/blob/main/config/locale/extra_en.yaml) file (english-only).
+When in code, prefer using hard-coded translation strings (no f-strings, no formatting) so it's possible to easily discover all translations using static analysis.
 
 ## Live Updates
 
@@ -14,6 +15,24 @@ For translations used in Python code, you'll need to reload the web server becau
 ### JavaScript
 
 For translations used in JavaScript code, you'll need to reload the page to see the changes.
+
+## Examples
+
+Here are some short examples on how to integrate the translations.
+
+```py
+from app.lib.translation import t
+fg.title(t('api.notes.rss.title'))
+```
+
+```jinja2
+<span>{{ t('layouts.sign_up') }}</span>
+```
+
+```js
+import i18next from "i18next"
+closeButton.ariaLabel = i18next.t("javascripts.close")
+```
 
 ## non-English Translation Support
 
