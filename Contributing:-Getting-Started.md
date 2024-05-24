@@ -17,7 +17,7 @@ nix-shell
 The first time you run `nix-shell`, it will take a little longer than usual. This is because it's downloading and setting up all the necessary packages and tools for the project. But don't worry, future launches will be much faster!
 
 > [!TIP]
-> You can automate the `nix-shell` step, by installing an optional [direnv](https://direnv.net) program. We already provide a `.envrc` configuration file that will automatically enter the development shell when you enter the project directory.
+> You can automate the `nix-shell` step, by installing an optional [direnv](https://direnv.net) program. We already provide a `.envrc` configuration file that will automatically enter the development shell when you navigate the project directory.
 
 Once you are inside the development shell, you can start your favorite text editor from within it. This ensures that your IDE will have access to the same environment:
 
