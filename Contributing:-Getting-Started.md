@@ -81,7 +81,17 @@ The download size is about 6 GB, and the result is cached on your local machine 
 
 The import process takes around 1-2 hours.
 
-## 6. Project Structure
+## 6. Mailbox
+
+We use [Mailpit](https://mailpit.axllent.org) to collect all outgoing mail during development. This makes it easy to view and inspect emails locally. It's ready to use out of the box — no additional configuration required. To open the web interface, simply run the following command in your development shell:
+
+```
+open-mailpit
+```
+
+There, you will see all collected emails, view HTML compatibility information, check spam scores, and more. This is especially helpful when you're working on new email templates or debugging email-related issues.
+
+## 7. Project Structure
 
 It's now a good time to familiarize yourself with the project structure. Here is what you should know:
 
