@@ -68,7 +68,17 @@ When you're finished exploring, simply press <kbd>CTRL+C</kbd> in your terminal 
 > [!TIP]
 > Something not working? Check out our [troubleshooting](https://github.com/Zaczero/openstreetmap-ng/wiki/Troubleshooting) guide.
 
-## 5. Preloading the Database (Optional)
+## 6. Mailbox
+
+We use [Mailpit](https://mailpit.axllent.org) to collect all outgoing mail during development. This makes it easy to view and inspect emails locally. It's ready to use out of the box — no additional configuration required. To open the web interface, simply run the following command in your development shell:
+
+```
+open-mailpit
+```
+
+There, you will see all collected emails, view HTML compatibility information, check spam scores, and more. This is especially helpful when you're working on new email templates or debugging email-related issues.
+
+## 6. Preloading the Database (Optional)
 
 For some development tasks, you might want to preload the database with some real-world OpenStreetMap data. We make this process easy by providing a script that does everything for you:
 
@@ -80,16 +90,6 @@ preload-pipeline
 The download size is about 6 GB, and the result is cached on your local machine in `data/preload` directory. Subsequent preloads will be able to reuse the cache. The downloader has an auto-updater, which will automatically download newer preload files when available.
 
 The import process takes around 1-2 hours.
-
-## 6. Mailbox
-
-We use [Mailpit](https://mailpit.axllent.org) to collect all outgoing mail during development. This makes it easy to view and inspect emails locally. It's ready to use out of the box — no additional configuration required. To open the web interface, simply run the following command in your development shell:
-
-```
-open-mailpit
-```
-
-There, you will see all collected emails, view HTML compatibility information, check spam scores, and more. This is especially helpful when you're working on new email templates or debugging email-related issues.
 
 ## 7. Project Structure
 
