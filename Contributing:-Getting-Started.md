@@ -68,7 +68,7 @@ When you're finished exploring, simply press <kbd>CTRL+C</kbd> in your terminal 
 > [!TIP]
 > Something not working? Check out our [troubleshooting](https://github.com/Zaczero/openstreetmap-ng/wiki/Troubleshooting) guide.
 
-## 5. Mailbox
+## 5. Accessing the Mailbox
 
 We use [Mailpit](https://mailpit.axllent.org) to collect all outgoing mail during development. This makes it easy to view and inspect emails locally. It's ready to use out of the box — no additional configuration required. To open the web interface, simply run the following command in your development shell:
 
