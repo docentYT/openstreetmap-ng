@@ -1,4 +1,4 @@
-**This is the continuation of the [Getting Started](https://github.com/Zaczero/openstreetmap-ng/wiki/Contributing:-Getting-Started) guide.**
+**📚 This is the continuation of the [Getting Started](https://github.com/Zaczero/openstreetmap-ng/wiki/Contributing:-Getting-Started) guide.**
 
 ## Templates
 
