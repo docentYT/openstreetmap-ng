@@ -36,6 +36,15 @@ During a typical development session, you will most likely need to start the pro
 dev-start
 ```
 
+Here is a list of running services with short descriptions:
+
+- **postgres**: The primary database service
+- **valkey**: An in-memory cache, an open-source fork of redis
+- **mailpit**: Local email testing tool, calculates HTML compatibility and spam scores
+- **watch-js**: Automatically recompile JavaScript files on change
+- **watch-locale**: Automatically recompile translation files on change
+- **watch-sass**: Automatically recompile SCSS stylesheet files on change
+
 > [!TIP]
 > All custom scripts are defined in the `shell.nix` file. Other useful scripts include `dev-stop` to stop the services, and `dev-clean` to clean services data files.
 
