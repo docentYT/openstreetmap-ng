@@ -10,7 +10,7 @@ To add or change text in the application, simply edit the config/locale/extra_en
 
 ## Stylesheets
 
-We use [SCSS](https://sass-lang.com/) to write stylesheets. SCSS is a superset of CSS that allows you to use variables, mixins, and nesting. If you are only familiar with CSS, you will easily understand how SCSS works. To make changes, edit files in the app/static/scss and if you have dev services running, they will be automatically recompiled to CSS in the app/static/css directory. Autoprefixer is used to add vendor-specific prefixes to generated CSS. You may require to force reload the page in your browser to see the changes (<kbd>CTRL+F5</kbd> or <kbd>CTRL+SHIFT+R</kbd>).
+We use [SCSS](https://sass-lang.com/) to write stylesheets. SCSS is a superset of CSS that allows you to use variables, mixins, and nesting. If you are only familiar with CSS, you will easily understand how SCSS works. To make changes, edit files in the app/static/scss and if you have dev services running, they will be automatically recompiled to CSS in the app/static/css directory. [Autoprefixer](https://github.com/postcss/autoprefixer) is used to add vendor-specific prefixes to generated CSS. You may require to force reload the page in your browser to see the changes (<kbd>CTRL+F5</kbd> or <kbd>CTRL+SHIFT+R</kbd>).
 
 ## JavaScript
 
