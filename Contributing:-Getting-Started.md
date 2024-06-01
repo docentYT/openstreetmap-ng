@@ -122,3 +122,10 @@ It's now a good time to familiarize yourself with the project structure. Here is
 - **data**: Services data files
 - **scripts**: Python scripts (used in `shell.nix`)
 - **tests**: Test suite
+
+## 8. Frontend & Backend Guides
+
+The frontend and backend guides have been split into dedicated wiki pages.
+
+- [Contributing: Frontend](https://github.com/Zaczero/openstreetmap-ng/wiki/Contributing:-Frontend)
+- Contributing: Backend -- TODO
