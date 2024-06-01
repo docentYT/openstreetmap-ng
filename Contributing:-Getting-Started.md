@@ -123,7 +123,7 @@ It's now a good time to familiarize yourself with the project structure. Here is
 - **scripts**: Python scripts (used in `shell.nix`)
 - **tests**: Test suite
 
-## 8. Frontend & Backend Guides
+## Further Reading
 
 The frontend and backend guides have been split into dedicated wiki pages.
 
