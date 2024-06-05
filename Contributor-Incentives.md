@@ -4,8 +4,6 @@ This project is driven by community contributors just like you. We are happy to 
 
 Every OpenStreetMap-NG contributor will receive a unique OSM profile badge. This time-limited benefit applies to all contributions made before the project becomes the primary OpenStreetMap website. The badge will be titled OpenStreetMap-NG Founder.
 
-### How to claim
-
 When the transition period starts, we will reach out to you using public information channels. If you don't provide such information on your GitHub profile, you will be **@mentioned** instead in a dedicated issue. During the conversation, we will ask you for your OpenStreetMap username to assign the badge to your profile.
 
 ## 💵 Bounties
