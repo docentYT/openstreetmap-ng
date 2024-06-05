@@ -6,13 +6,13 @@ Every OpenStreetMap-NG contributor will receive a unique OSM profile badge. This
 
 When the transition period starts, we will reach out to you using public information channels. If you don't provide such information on your GitHub profile, you will be **@mentioned** instead in a dedicated issue. During the conversation, we will ask you for your OpenStreetMap username to assign the badge to your profile.
 
-## 💵 Bounties
+## 💵 Cash Bounties
 
 When browsing through the [GitHub Issues](https://github.com/Zaczero/openstreetmap-ng/issues), you may find some issues that are tagged with the bounty label. When contributing towards these issues, you will be eligible for a bounty. When several people are working on the same issue, the bounty amount will be divided among them according to the amount of work they have done.
 
 If you would like to start working on an issue, you can request assignment by commenting on the issue. This will ensure that you have bounty priority in case of a conflict. If you would like to discuss your solution with other developers, you can either comment on the issue or join our [Discord server](https://discord.gg/GM89hdjSCB). We will provide you with necessary help and guidance!
 
-### Payment methods
+### Withdrawal methods
 
 You can receive your bounties in the following ways:
 
