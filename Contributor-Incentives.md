@@ -8,11 +8,11 @@ When the transition period starts, we will reach out to you using public informa
 
 ## 💵 Cash Bounties
 
-When browsing through the [GitHub Issues](https://github.com/Zaczero/openstreetmap-ng/issues), you may find some issues that are tagged with the bounty label. When contributing towards these issues, you will be eligible for a bounty. When several people are working on the same issue, the bounty amount will be divided among them according to the amount of work they have done.
+When browsing through the [GitHub Issues](https://github.com/Zaczero/openstreetmap-ng/issues), you may find some issues that are tagged with the bounty label. When contributing towards these issues, you will be eligible for a bounty. When several people are working on the same issue, the bounty amount will be divided among them according to the amount of work they have done. Depending on the complexity of the issue, the final bounty amount may be higher but not lower than the originally planned.
 
 If you would like to start working on an issue, you can request assignment by commenting on the issue. This will ensure that you have bounty priority in case of a conflict. If you would like to discuss your solution with other developers, you can either comment on the issue or join our [Discord server](https://discord.gg/GM89hdjSCB). We will provide you with necessary help and guidance!
 
-For transparency, all incoming and outgoing transactions are recorded in our [ledger wiki page](https://github.com/Zaczero/openstreetmap-ng/wiki/Ledger).
+For transparency, all incoming and outgoing transactions are recorded in our [ledger wiki page](https://github.com/Zaczero/openstreetmap-ng/wiki/Ledger). Core maintainers are not able to claim bounties - they are intended for the community use.
 
 ### Withdrawal methods
 
