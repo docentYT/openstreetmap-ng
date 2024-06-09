@@ -26,7 +26,7 @@ Due to licensing incompatibilities, code previously licensed under GPL-2.0 canno
 
 ### Dual-Licensing Agreements
 
-Some contributors have agreed to dual-license their work under both GPL-2.0 and AGPL-3.0:
+The following contributors have agreed to dual-license their work under both GPL-2.0 and AGPL-3.0:
 
 - <https://github.com/samanpwbb>
 - <https://github.com/simonpoole>
