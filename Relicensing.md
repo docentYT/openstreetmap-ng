@@ -20,7 +20,7 @@ This provision ensures that if the website's code is modified, anyone interactin
 
 Due to licensing incompatibilities, code previously licensed under GPL-2.0 cannot be directly copied into the AGPL-3.0 codebase. However, contributors have several options to preserve the existing functionalities:
 
-1. Several contributors have generously agreed to dual-license their work under both GPL-2.0 and AGPL-3.0. This means their code can be incorporated directly into the new codebase.
+1. Several contributors have generously agreed to dual-license their work under both GPL-2.0 and AGPL-3.0. This means their work can be incorporated directly into the new codebase.
 
 2. Contributors can also observe the behavior of public OpenStreetMap websites. By studying the features and functionality of these sites, contributors can reimplement similar or the same features within the AGPL-3.0 framework, thus avoiding any licensing conflicts.
 
