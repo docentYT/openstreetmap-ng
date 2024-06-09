@@ -6,7 +6,7 @@ While the GPL-2.0 license promotes software freedom, its design primarily focuse
 
 > (...) the GNU General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users.
 
-Unfortunately, the well-known "Software as a Service" (SaaS) loophole allow the website's code to become proprietary and closed-source, undermining the principles of open collaboration without violating the license.
+Unfortunately, the well-known Software as a Service (SaaS) loophole allow the website's code to become proprietary and closed-source, undermining the principles of free software without violating the license.
 
 ## AGPL-3.0
 
