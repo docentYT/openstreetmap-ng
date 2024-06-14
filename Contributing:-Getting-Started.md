@@ -100,6 +100,9 @@ The download size is about 6 GB, and the result is cached on your local machine 
 
 The import process takes around 1-2 hours.
 
+> [!IMPORTANT]  
+> When preloading the database, it is recommended to have 320 GB of free disk space available.
+
 ## 7. Project Structure
 
 It's now a good time to familiarize yourself with the project structure. Here is what you should know:
