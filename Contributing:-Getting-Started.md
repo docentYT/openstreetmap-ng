@@ -16,7 +16,7 @@ nix-shell
 
 The first time you run `nix-shell`, it will take a little longer than usual. This is because it's downloading and setting up all the necessary packages and tools for the project. But don't worry, future launches will be much faster!
 
-**Important!** Once you are inside the development shell, you can start your preferred code editor **from within it**. This step ensures that your editor will have access to the same Nix environment. Otherwise you will face various file and connection errors. For example:
+**Important!** Once you are inside the development shell, you can start your preferred code editor **from within it**. This step ensures that your editor will have access to the same Nix environment. Otherwise you will face various file and connection errors.
 
 ```sh
 # Visual Studio Code:
