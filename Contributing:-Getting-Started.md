@@ -1,6 +1,6 @@
 Welcome to the project and thank you for your interest in contributing! This guide will help you get started with the project and provide you with the necessary information to make your first contribution.
 
-## 1️. Required Software
+## 1. Required Software
 
 OpenStreetMap-NG focuses on simplicity. We use a minimal set of tools to keep the development process straightforward, secure, and easy to understand. The development environment is automatically configured with Nix, and this is the only tool you need to install yourself.
 
