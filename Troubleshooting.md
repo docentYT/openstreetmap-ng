@@ -16,14 +16,14 @@ Make sure you're in the main project folder (the one with the `shell.nix` file) 
 
 If you see this error when starting the application and you're in the main folder, it might mean some helper services aren't running yet.
 
-The application talks to a database through a special unix socket in the `/tmp/osm-postgres` folder. If the database isn't running, this socket won't be there, resulting in the FileNotFoundError.
+The application talks to a database through a special unix socket in the `data/postgres_unix` folder. If the database isn't running, this socket won't be there, resulting in the FileNotFoundError.
 
 How-to: [Starting the Services](https://github.com/Zaczero/openstreetmap-ng/wiki/Contributing:-Getting-Started#3-starting-the-services)
 
 ## JavaScript files don't refresh in the browser
 
-There might be a small compilation error in your JavaScript code.
-Check the `data/supervisor/watch-js.log` file for details.
+There might be a compilation error in the JavaScript code.
+Check the `data/supervisor/watch-js.log` file or run the `dev-logs-watch-js` command for details.
 
 ## Other problems
 
