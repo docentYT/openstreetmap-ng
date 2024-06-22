@@ -9,7 +9,7 @@ You can learn more about the cash bounties by reading the [Contributor Incentive
 - [ ] 2024-06-20 — [docentYT](https://github.com/docentYT) assigned $10 for [#51](https://github.com/Zaczero/openstreetmap-ng/issues/51)
 - [ ] 2024-06-19 — [tomekrzymyszkiewicz](https://github.com/tomekrzymyszkiewicz) assigned $10 for [#41](https://github.com/Zaczero/openstreetmap-ng/issues/41)
 - [ ] 2024-06-15 — [starsep](https://github.com/starsep) assigned $10 for [#10](https://github.com/Zaczero/openstreetmap-ng/issues/10)
-- [x] 2024-06-05 — [Zaczero](https://github.com/Zaczero) added $200
+- 2024-06-05 — [Zaczero](https://github.com/Zaczero) added $200
 
 ### Legend
 
