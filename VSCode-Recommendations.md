@@ -1,4 +1,4 @@
-In this guide, we present the recommended VSCode configuration when working on the OpenStreetMap-NG project.
+In this guide, we present the recommended [Visual Studio Code](https://code.visualstudio.com) configuration when working on the OpenStreetMap-NG project.
 
 **TL;DR** We recommend installing all workspace-recommended extensions. These are defined in the [.vscode/extensions.json](https://github.com/Zaczero/openstreetmap-ng/blob/main/.vscode/extensions.json) file and will appear in the recommended extensions tab. Below is a summary of their functionalities.
 
