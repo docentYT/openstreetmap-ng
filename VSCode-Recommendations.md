@@ -32,7 +32,7 @@ The Nix IDE extension adds support for the Nix language in VSCode. Installing it
 
 ![image](https://github.com/Zaczero/openstreetmap-ng/assets/10835147/1cfe881e-fe51-4548-9f81-77870e8dd7af)
 
-We use [Prettier](https://prettier.io) for formatting SCSS files. Installing the Prettier extension ensures that your SCSS code is automatically formatted according to a consistent style.
+We use [Prettier](https://prettier.io) for formatting SCSS files. With this extension, you can format documents directly in VSCode using the same tooling.
 
 ## Ruff
 
