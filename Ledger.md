@@ -2,8 +2,9 @@ This page is a record of all the transactions that have taken place in the OpenS
 
 You can learn more about the cash bounties by reading the [Contributor Incentives](https://github.com/Zaczero/openstreetmap-ng/wiki/Contributor-Incentives).
 
-**Total balance is $180**
+**Total balance is $160**
 
+- 2024-06-22 — [docentYT](https://github.com/docentYT) assigned $20 for [#5](https://github.com/Zaczero/openstreetmap-ng/issues/5)
 - 2024-06-21 — [KonradowyPL](https://github.com/KonradowyPL) assigned $5 for [#52](https://github.com/Zaczero/openstreetmap-ng/issues/52)
 - 2024-06-20 — [docentYT](https://github.com/docentYT) assigned $5 for [#51](https://github.com/Zaczero/openstreetmap-ng/issues/51)
 - 2024-06-19 — [tomekrzymyszkiewicz](https://github.com/tomekrzymyszkiewicz) assigned $5 for [#41](https://github.com/Zaczero/openstreetmap-ng/issues/41)
