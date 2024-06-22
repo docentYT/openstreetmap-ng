@@ -8,7 +8,7 @@ In this guide, we present the recommended VSCode configuration when working on t
 
 ![image](https://github.com/Zaczero/openstreetmap-ng/assets/10835147/c2b5502b-0bd5-4691-83fe-cbbd474bf960)
 
-We use [Biome](https://biomejs.dev/) for formatting, linting, bundling, and testing our JavaScript code. Installing their official Biome extension enables proper integration with VSCode.
+We use [Biome](https://biomejs.dev) for formatting, linting, bundling, and testing our JavaScript code. Installing their official Biome extension enables proper integration with VSCode.
 
 ## Coverage Gutters
 
@@ -27,6 +27,12 @@ You can easily toggle this feature on and off using the control at the bottom of
 ![image](https://github.com/Zaczero/openstreetmap-ng/assets/10835147/47d25b5d-6f95-4cc4-826b-392af3a0aed4)
 
 The Nix IDE extension adds support for the Nix language in VSCode. Installing it enables proper syntax highlighting and code completion for Nix files, along with linting and formatting support.
+
+## Prettier
+
+![image](https://github.com/Zaczero/openstreetmap-ng/assets/10835147/1cfe881e-fe51-4548-9f81-77870e8dd7af)
+
+We use [Prettier](https://prettier.io) for formatting SCSS files. Installing the Prettier extension ensures that your SCSS code is automatically formatted according to a consistent style.
 
 ## Ruff
 
