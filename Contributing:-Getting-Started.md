@@ -132,3 +132,7 @@ The frontend and backend guides have been split into dedicated wiki pages.
 
 - [Contributing: Frontend](https://github.com/Zaczero/openstreetmap-ng/wiki/Contributing:-Frontend)
 - Contributing: Backend -- TODO
+
+We also recommend exploring the editor-specific guides:
+
+- [VSCode Recommendations](https://github.com/Zaczero/openstreetmap-ng/wiki/VSCode-Recommendations)
