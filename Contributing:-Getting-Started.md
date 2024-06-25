@@ -19,10 +19,9 @@ The first time you run `nix-shell`, it will take a little longer than usual. Thi
 **Important!** Once you are inside the development shell, you can start your preferred code editor **from within it**. This step ensures that your editor will have access to the same Nix environment. Otherwise you will face various file and connection errors.
 
 ```sh
-# Visual Studio Code
+# Visual Studio Code:
 code .
-
-# PyCharm
+# PyCharm:
 charm .
 ```
 
