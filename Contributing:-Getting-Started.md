@@ -19,9 +19,10 @@ The first time you run `nix-shell`, it will take a little longer than usual. Thi
 **Important!** Once you are inside the development shell, you can start your preferred code editor **from within it**. This step ensures that your editor will have access to the same Nix environment. Otherwise you will face various file and connection errors.
 
 ```sh
-# Visual Studio Code:
+# Visual Studio Code
 code .
-# PyCharm:
+
+# PyCharm
 charm .
 ```
 
@@ -81,7 +82,7 @@ When you're finished exploring, simply press <kbd>CTRL+C</kbd> in your terminal 
 
 We use [Mailpit](https://mailpit.axllent.org) to collect all outgoing mail during development. This makes it easy to view and inspect emails locally. It's ready to use out of the box — no additional configuration required. To open the web interface, simply run the following command in your development shell:
 
-```
+```sh
 open-mailpit
 ```
 
@@ -92,16 +93,22 @@ There, you will see all collected emails, view HTML compatibility information, c
 For some development tasks, you might want to preload the database with some real-world OpenStreetMap data. We make this process easy by providing a script that does everything for you:
 
 ```sh
-dev-clean  # Clean the database first (recommended)
+# Recommended: Clean the database first
+dev-clean
 preload-pipeline
 ```
 
-The download size is about 6 GB, and the result is cached on your local machine in `data/preload` directory. Subsequent preloads will be able to reuse the cache. The downloader has an auto-updater, which will automatically download newer preload files when available.
+There are several datasets available with different requirements. Check out the table below for more info:
 
-The import process takes around 1-2 hours.
+| Name | Area | Download Size | Disk Usage | Total Time |
+| --- | --- | --- | --- | --- |
+| poland | [Country of Poland](https://wikipedia.org/wiki/Poland) | 6 GB | 320 GB | 1-2 hours |
+| mazowieckie | [Masovian Voivodeship](https://wikipedia.org/wiki/Masovian_Voivodeship) | 1 GB | 60 GB | 15-30 minutes |
+
+Download results are cached locally in the `data/preload` directory. Subsequent preloads will be able to reuse the cache, making them faster. The downloader auto-updates, so it will automatically download new files when they're available.
 
 > [!IMPORTANT]  
-> When preloading the database, it is recommended to have 320 GB of free disk space available.
+> When using preloaded data, some features (e.g., search) might crash if you go outside the data bounds — that's OK.
 
 ## 7. Project Structure
 
